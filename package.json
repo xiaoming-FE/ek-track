@@ -2,6 +2,7 @@
   "name": "ek-track",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Statistical burial point",
   "keywords": [
     "browser",
     "useragent",

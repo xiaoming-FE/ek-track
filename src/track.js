@@ -4,7 +4,6 @@
 import Browser from './browser';
 import Report from './report';
 import Stat from './stat';
-Report.option.url = 'http://localhost:3000/';
 new Stat();
 
 /**

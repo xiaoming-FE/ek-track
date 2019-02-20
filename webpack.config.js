@@ -1,5 +1,5 @@
 const path = require('path');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 
@@ -26,11 +26,11 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    // new HtmlWebpackPlugin({
-    //   template: './index.html',
-    //   inject: 'body',
-    //   filename: './index.html'
-    // })
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      inject: 'body',
+      filename: './index.html'
+    })
   ],
   module: {
     // configuration regarding modules

@@ -1,8 +1,9 @@
 {
   "name": "ek-track",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Statistical burial point",
+  "Maintainers": "xiaoming-FE",
   "keywords": [
     "browser",
     "useragent",
@@ -14,35 +15,14 @@
     "Statistics",
     "track"
   ],
-  "main": "track.js",
+  "author": "xiaoming-FE & leinov",
+  "main": "index.js",
   "homepage": "https://github.com/xiaoming-FE/ek-track",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "lint": "eslint ./src"
+    "lint": "eslint ./lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiaoming-FE/ek-track.git"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/polyfill": "^7.2.5",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/register": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-ava": "^5.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14",
-    "express": "^4.16.4",
-    "webpack-dev-middleware": "^3.5.2",
-    "clean-webpack-plugin": "^1.0.1",
-    "html-webpack-plugin": "^3.2.0"
   }
 }

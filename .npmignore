@@ -1,5 +1,6 @@
 .DS_Store
 .babelrc
+/example
 .exlintrc.js
 .npmignore
 # local env files
